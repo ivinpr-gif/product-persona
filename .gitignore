@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Python & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+database/*.db
+
+# Node.js & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.app/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
